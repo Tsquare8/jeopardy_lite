@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Jeopardy Lite</title>
+</head>
+
+<body>
+  <header>
+    <h1>Let's Play Jeopardy Lite!</h1>
+  </header>
+
+  <div id="category">
+    <h3>Category:    <span id="categoryContent"></span></h3>
+  </div>
+
+  <div id="points">
+    <h3>Points:     <span id="pointsContent"></span></h3>
+  </div>
+
+  <div id="question">
+    <h3>Question:</h3>
+    <span id="questionContent"></span>
+  </div>
+
+  <div id="answer">
+  <h3>Type your answer:</h3>
+  <input id="response" size="40" type="text" />
+  <button id="submit-button">Submit</button>
+</div>
+
+  <br>
+
+  <div id="score">
+    SCORE: <span id="points-score">0</span>
+  </div>
+
+  <br>
+
+  <div>
+    <span id="result"></span>
+  </div>
+
+  <br>
+
+  <div id="next-button">
+    <button id="next-question">Next Question</button>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/javascript/jeopardy.js"></script>
+</body>
+
+</html>
